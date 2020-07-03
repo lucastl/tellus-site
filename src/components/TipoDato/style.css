@@ -1,0 +1,77 @@
+.tipo-dato {
+    width: 33.333%;
+    display: flex;
+    height: 25rem;
+    overflow: hidden;
+    opacity: .85;
+    transition: all .3s ease-in-out;
+}
+
+.background-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.wrap-tipo-dato {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-tipo-dato {
+    font-weight: 400;
+    color: rgba(255,255,255,.6);
+    font-size: 1.2em;
+    background: rgba(62, 101, 149, .95);
+    padding: .75rem 0;
+    width: 12vw;
+    text-transform: uppercase;
+    margin: 1rem auto;
+    border: 1px solid rgba(255,255,255,.6);
+}
+
+
+ul.metodos-adquisicion {
+    list-style: none;
+    background: rgba(255,255,255,.65);
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .2rem;
+    border: 1px solid rgba(0,0,0,.4);
+    box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+ul.metodos-adquisicion h4 {
+    color: rgba(0,0,0,.65);
+    margin: .5rem 0 1.25rem;
+    width: 100%;
+}
+
+li.metodo-adquisicion {
+    background: rgba(0,0,0,.8);
+    color: rgba(255,255,255,.85);
+    padding: .5rem 1rem;
+    transform: scale(.8);
+}
+
+.tipo-dato:hover .metodos-adquisicion {
+    top: 35%;
+    opacity: 1;
+}
+
+.tipo-dato:hover {
+    opacity: 1;
+}

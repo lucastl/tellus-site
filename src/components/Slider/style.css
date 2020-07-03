@@ -1,0 +1,37 @@
+.btn-slider {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 0;
+    padding: 0;
+    opacity: .8;
+}
+
+.btn-slider:hover {
+    background: rgba(67, 104, 150, 1);
+    color: rgba(255,255,255,1);
+    transition: all .16s ease-in-out;
+}
+
+.btn-slider span {
+    opacity: .45;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 2em;
+}
+
+.next {
+    right: 2rem;
+}
+
+.back {
+    left: 2rem;
+}      

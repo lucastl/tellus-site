@@ -1,0 +1,48 @@
+nav#navigator {
+    width: 40vw;
+}
+
+nav#navigator ul.nav-wrapper {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+nav#navigator ul.nav-wrapper li.nav-item {
+    margin: 0;
+    position: relative;
+}
+
+nav#navigator ul.nav-wrapper li.nav-item:hover ul.sub-menu {
+    visibility: visible;
+}
+
+nav#navigator ul.nav-wrapper li.nav-item a {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+}
+
+ul.sub-menu {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    padding: .25rem 0;
+    width: 100%;
+    background: rgb(58, 98, 147);
+    visibility: hidden;
+}
+
+ul.sub-menu li.nav-item {
+    padding: .25rem .5rem;
+}
+
+ul.sub-menu li.nav-item a {
+    text-transform: capitalize !important;
+    font-size: .9em;
+    color: rgba(255,255,255,.75) !important;
+}
+
+
